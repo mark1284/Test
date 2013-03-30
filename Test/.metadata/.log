@@ -1,0 +1,31 @@
+!SESSION 2011-11-23 19:23:24.198 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_29
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product -keyring /Users/markhoughton/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.php.product -data /Library/WebServer/Documents/Test -product org.eclipse.epp.package.php.product -keyring /Users/markhoughton/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2011-11-23 19:23:34.301
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-11-23 19:23:34.301
+!MESSAGE A conflict occurred for ALT+COMMAND+Q P:
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.handlers.ShowViewHandler@19a072a6,
+		[Lorg.eclipse.ui.internal.commands.Parameter;@74c6fd6e,,true),[Lorg.eclipse.core.commands.Parameterization;@34287ca7),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+Q P,
+	ParameterizedCommand(Command(org.eclipse.ui.views.showView,Show View,
+		Shows a particular view,
+		Category(org.eclipse.ui.category.views,Views,Commands for opening views,true),
+		org.eclipse.ui.handlers.ShowViewHandler@19a072a6,
+		[Lorg.eclipse.ui.internal.commands.Parameter;@74c6fd6e,,true),[Lorg.eclipse.core.commands.Parameterization;@4e0fd2b1),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.core.net 1 0 2011-11-23 19:23:34.596
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
